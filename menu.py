@@ -23,3 +23,8 @@ elif calculo == 2:
     print("Você escolheu subtrair.")
     resultado = calculadora.subtrair(a, b)
     print('O resultado da subtração é:', resultado)
+
+elif calculo == 3:
+    print("Você escolheu multiplicar.")
+    resultado = calculadora.multiplicar(a, b)
+    print('O resultado da multiplicação é:', resultado)
