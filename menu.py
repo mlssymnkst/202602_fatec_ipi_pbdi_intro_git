@@ -39,3 +39,5 @@ elif calculo == 0:
 
 else:
     print("Opção inválida. Por favor, escolha uma operação válida.")
+
+menu()
