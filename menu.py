@@ -33,3 +33,9 @@ elif calculo == 4:
     print("Você escolheu dividir.")
     resultado = calculadora.dividir(a, b)
     print('O resultado da divisão é:', resultado)
+
+elif calculo == 0:
+    print("Sair do programa.")
+
+else:
+    print("Opção inválida. Por favor, escolha uma operação válida.")
