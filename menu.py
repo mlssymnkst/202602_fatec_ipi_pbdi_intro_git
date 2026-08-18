@@ -18,3 +18,8 @@ if calculo == 1:
     print("Você escolheu somar.")
     resultado = calculadora.somar(a, b)
     print('O resultado da soma é:', resultado)
+
+elif calculo == 2:
+    print("Você escolheu subtrair.")
+    resultado = calculadora.subtrair(a, b)
+    print('O resultado da subtração é:', resultado)
