@@ -28,3 +28,8 @@ elif calculo == 3:
     print("Você escolheu multiplicar.")
     resultado = calculadora.multiplicar(a, b)
     print('O resultado da multiplicação é:', resultado)
+
+elif calculo == 4:
+    print("Você escolheu dividir.")
+    resultado = calculadora.dividir(a, b)
+    print('O resultado da divisão é:', resultado)
